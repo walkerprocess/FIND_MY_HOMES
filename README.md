@@ -7,11 +7,18 @@
 카카오톡을 통해 손쉽게 이용할 수 있도록 구현되었습니다.
 
 **Find My Home** is an AI-powered chatbot service designed to help users easily search for public rental housing information in Korea.  
-Based on the user's age, marital status, and region, it recommends customized housing notices.  
+It recommends customized housing notices based on the user's age, marital status, and region.  
 It is conveniently accessible through KakaoTalk.
 
 ---
+## 업로드된 폴더 설명 / UPLOADED FOLDERS DESCRIPTION
+-  find-homes-dev 폴더에 들어있는 코드들이 최종적으로 카카오톡과 연동할때 쓰인 파일들입니다
+-  adding_vocab(csv-md) 폴더에는 csv로 저장되어있는 단어집을 md파일로 변환 그리고 원본 데이터들과 합치는 코드들이 들어가있습니다
+-  Uploading,Testing 폴더에는 데이터 업로드 과정 그리고 초기 RAG 모델 테스트 코드들이 들어가있습니다.
 
+-  find-homes-dev folder includes codes that are used to connect with KakaoTalk Chatbot
+-  adding_vocab(csv-md) folder includes codes that switch vocab data (csv data) into a markdown file and add it with the original data
+-  Uploading, Testing folder includes codes used to upload data into Azure AI Search and testing of the early RAG model.
 ## 📌 프로젝트 개요 / PROJECT OVERVIEW
 
 - **목표:** 공공임대주택 관련 정보를 사용자 맞춤형으로 제공하여 정보 접근성을 향상시키고 복잡한 주거 지원 정보를 쉽게 전달.
