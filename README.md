@@ -1,9 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
 
-# 🏠 Find My Home: Public Rental Housing Information Assistant
-
-...
-
 # 🏠 찾아줘 홈즈: 공공임대주택 정보 안내 도우미 / Find My Home: Public Rental Housing Information Assistant
 
 **찾아줘 홈즈**는 공공임대주택 정보를 쉽고 빠르게 찾을 수 있도록 도와주는 AI 기반 챗봇 서비스입니다.  
