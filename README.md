@@ -7,6 +7,7 @@
 카카오톡을 통해 손쉽게 이용할 수 있도록 구현되었습니다.
 
 *카카오톡에서 "찾아줘! 홈즈"라고 검색하시면 사용하실 수 있습니다!*
+
 *업데이트! 현재는 리소스 문제로 llm 모델은 실행이 안됩니다!🪦*
 
 **Find My Home** is an AI-powered chatbot service designed to help users easily search for public rental housing information in Korea.  
