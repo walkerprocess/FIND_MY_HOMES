@@ -6,10 +6,15 @@
 사용자의 나이, 혼인 여부, 지역 등의 정보를 기반으로 맞춤형 공고를 추천하며,  
 카카오톡을 통해 손쉽게 이용할 수 있도록 구현되었습니다.
 
+카카오톡에서 "찾아줘! 홈즈"라고 검색하시면 사용하실 수 있습니다!
+*업데이트! 현재는 리소스 문제로 llm 모델은 실행이 안됩니다!🪦*
+
 **Find My Home** is an AI-powered chatbot service designed to help users easily search for public rental housing information in Korea.  
 It recommends customized housing notices based on the user's age, marital status, and region.  
 It is conveniently accessible through KakaoTalk.
 
+Search "찾아줘! 홈즈" in Kakaotalk to use this chatbot!  
+*Update! Service is Currently down 2025/4/22 🪦*
 ---
 ## 업로드된 폴더 설명 / UPLOADED FOLDERS DESCRIPTION
 -  find-homes-dev 폴더에 들어있는 코드들이 최종적으로 카카오톡과 연동할때 쓰인 파일들입니다
