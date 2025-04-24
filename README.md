@@ -1,46 +1,49 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
+![header](https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header)
 
-<<<<<<< HEAD
-# 찾아줘 홈즈 🏠 / ind My Home: Public Rental Housing Information Assistant
+# 🏠 찾아줘 홈즈 / Find My Home  
+**공공임대주택 정보 안내 도우미**  
+**Public Rental Housing Information Assistant**
 
-<img src="./images/title.png" style="width: 100%; height: auto;" />
+![title](./images/title.png)
 
-...
-=======
-# 🏠 찾아줘 홈즈: 공공임대주택 정보 안내 도우미 / Find My Home: Public Rental Housing Information Assistant
->>>>>>> 5313e4f1750e64b1116c425099e61f582763f8b4
-
-**찾아줘 홈즈**는 공공임대주택 정보를 쉽고 빠르게 찾을 수 있도록 도와주는 AI 기반 챗봇 서비스입니다.  
-사용자의 나이, 혼인 여부, 지역 등의 정보를 기반으로 맞춤형 공고를 추천하며,  
-카카오톡을 통해 손쉽게 이용할 수 있도록 구현되었습니다.
-
-*카카오톡에서 "찾아줘! 홈즈"라고 검색하시면 사용하실 수 있습니다!*
-
-*업데이트! 현재는 리소스 문제로 llm 모델은 실행이 안됩니다!🪦*
-
-**Find My Home** is an AI-powered chatbot service designed to help users easily search for public rental housing information in Korea.  
-It recommends customized housing notices based on the user's age, marital status, and region.  
-It is conveniently accessible through KakaoTalk.
-
-*Search "찾아줘! 홈즈" in Kakaotalk to use this chatbot!*  
-*Update! Service is Currently down 2025/4/22 🪦*
 ---
-## 업로드된 폴더 설명 / UPLOADED FOLDERS DESCRIPTION
--  find-homes-dev 폴더에 들어있는 코드들이 최종적으로 카카오톡과 연동할때 쓰인 파일들입니다
--  adding_vocab(csv-md) 폴더에는 csv로 저장되어있는 단어집을 md파일로 변환 그리고 원본 데이터들과 합치는 코드들이 들어가있습니다
--  Uploading,Testing 폴더에는 데이터 업로드 과정 그리고 초기 RAG 모델 테스트 코드들이 들어가있습니다.
 
-<<<<<<< HEAD
-## 👀 How does it work?
+## 📌 소개 / Introduction
+
+**찾아줘 홈즈**는 공공임대주택 정보를 쉽고 빠르게 찾을 수 있도록 도와주는 **AI 기반 챗봇 서비스**입니다.  
+사용자의 **나이, 혼인 여부, 지역** 등의 정보를 기반으로 **맞춤형 공고를 추천**하며,  
+**카카오톡**을 통해 간편하게 사용할 수 있습니다.
+
+> 🔍 카카오톡에서 **"찾아줘! 홈즈"**를 검색해보세요!  
+> ⚠️ *현재 LLM 모델은 리소스 문제로 중단된 상태입니다 (2025.04.22 기준)*
+
+---
+
+## 📁 업로드 폴더 설명 / Uploaded Folders Description
+
+- `find-homes-dev`  
+  → 카카오톡과 연동 시 사용되는 최종 코드
+
+- `adding_vocab(csv-md)`  
+  → CSV로 저장된 단어집을 Markdown으로 변환 및 통합하는 코드
+
+- `Uploading, Testing`  
+  → 데이터 업로드 및 초기 RAG 모델 테스트 코드
+
+---
+
+## 👀 작동 방식 / How It Works
 
 <div align="center">
   <img src="./images/demo1.gif" width="45%" style="margin-right: 10px;" />
   <img src="./images/demo2.gif" width="45%" />
 </div>
 
-## ⚙️ Architecture
+---
 
-<img src="./images/architecture.png" style="width: 100%; height: auto;" />
+## ⚙️ 시스템 아키텍처 / Architecture
+
+![architecture](./images/architecture.png)
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
@@ -52,113 +55,74 @@ It is conveniently accessible through KakaoTalk.
   <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white" />
 </p>
 
-=======
--  find-homes-dev folder includes codes that are used to connect with KakaoTalk Chatbot
--  adding_vocab(csv-md) folder includes codes that switch vocab data (csv data) into a markdown file and add it with the original data
--  Uploading, Testing folder includes codes used to upload data into Azure AI Search and testing of the early RAG model.
->>>>>>> 5313e4f1750e64b1116c425099e61f582763f8b4
-## 📌 프로젝트 개요 / PROJECT OVERVIEW
+---
 
-- **목표:** 공공임대주택 관련 정보를 사용자 맞춤형으로 제공하여 정보 접근성을 향상시키고 복잡한 주거 지원 정보를 쉽게 전달.
-- **기능 요약:**
+## 🎯 프로젝트 개요 / Project Overview
 
-  - 사용자 정보 기반 맞춤형 공고 추천
-  - 지역별 공고 검색
-  - 카카오톡 챗봇 UI 제공
-  - RAG 기반 LLM을 활용한 자연어 질의 응답
+- **목표 / Goal:**  
+  사용자 맞춤형 공공임대주택 정보를 제공하여 정보 접근성을 향상시키고, 복잡한 정책 정보를 쉽게 전달합니다.
+
+- **주요 기능 / Key Features:**  
+  - 사용자 정보 기반 공고 추천  
+  - 지역별 공고 검색  
+  - 카카오톡 챗봇 UI  
+  - RAG 기반 LLM 질의응답  
   - 인공지능 윤리 적용
 
-- **Goal:** Improve accessibility to public rental housing information by offering personalized recommendations and simplifying complex housing policies.
-- **Key Features:**
-  - Personalized notice recommendations based on user profile
-  - Regional notice search
-  - Chatbot interface on KakaoTalk
-  - RAG-based LLM (GPT-4) for natural language Q&A
-  - Ethical AI considerations
+---
+
+## 🛠 프로젝트 구성 / Project Components
+
+| 파트 | 설명 |
+|------|------|
+| 기획 & 분석 | 정책 데이터 수집 및 전처리 설계 |
+| 백엔드 | Flask 서버, RAG 파이프라인 구축 |
+| 프론트/챗봇 | 카카오톡 챗봇 UI, 사용자 흐름 설계 |
+| LLM 최적화 | Query Rewriting, Prompt Engineering |
 
 ---
 
-## 프로젝트 기획 / OVERALL PLANNINGS
+## 💻 사용 기술 스택 / Tech Stack
 
-- **기획 & 데이터 분석:** 정책 자료 수집, 전처리 설계
-- **백엔드 개발:** Flask 서버, RAG 파이프라인 구축
-- **프론트/챗봇 개발:** 카카오톡 챗봇 UI, 사용자 응답 흐름 구성
-- **LLM 응답 최적화:** Query Rewriting, Prompt Engineering
-
-- **Planning & Data Analysis:** Policy document collection, preprocessing design
-- **Backend Development:** Flask server, RAG pipeline
-- **Frontend/Chatbot:** KakaoTalk chatbot UI, user flow design
-- **LLM Optimization:** Query rewriting, prompt engineering
+- **LLM:** OpenAI GPT-4 (Azure 기반)  
+- **RAG:** Azure Cognitive Search + Custom Embedding  
+- **백엔드:** Python, Flask, ngrok  
+- **챗봇:** Kakao i Open Builder  
+- **전처리 도구:** pandas, PyMuPDF, PDFMiner  
+- **인프라:** Azure Functions, Blob Storage  
 
 ---
 
-## 🗂️ 사용 기술 스택 / TECH STACK
+## 📚 데이터셋 및 처리 / Dataset & Processing
 
-- **LLM:** OpenAI GPT-4 (Azure AI)
-- **RAG:** Azure Cognitive Search + Custom Embedding
-- **백엔드:** Python, Flask, ngrok
-- **챗봇:** Kakao i Open Builder 연동
-- **데이터 전처리:** pandas, PyMuPDF, PDFMiner
-- **인프라:** Azure Functions, Azure Blob Storage
-
-- **LLM:** OpenAI GPT-4 (Azure AI)
-- **RAG:** Azure Cognitive Search + Custom Embeddings
-- **Backend:** Python, Flask, ngrok
-- **Chatbot:** Kakao i Open Builder integration
-- **Preprocessing Tools:** pandas, PyMuPDF, PDFMiner
-- **Infrastructure:** Azure Functions, Azure Blob Storage
-
----
-
----
-
-## 📚 데이터셋 및 처리 방식 / DATASET AND PROCESSING
-
-- **데이터 출처:** 공공임대주택 공고문 PDF 자료 /LH, GH, SH
-- **처리 내용:**
-
-  - 제목 수준 구분 및 표 구조 추출
-  - Chunk 기반 분할 및 임베딩
+- **출처:** LH, GH, SH의 공공임대주택 공고 PDF
+- **처리 방식:**
+  - 제목 및 표 구조 추출
+  - 텍스트 청킹 및 임베딩
   - BM25 + HNSW 인덱싱
-  - LLM 연결을 위한 Prompt 템플릿 구성
-
-- **Source:** PDF documents of public rental housing announcements / LH, GH, SH
-- **Process:**
-  - Title-level chunking and table structure extraction
-  - Text chunking and embedding
-  - BM25 + HNSW indexing
-  - Prompt templating for LLM integration
+  - LLM 연동용 프롬프트 구성
 
 ---
 
-## 💬 챗봇 기능 시나리오 / CHATBOT SCENARIOS
+## 💬 챗봇 사용 시나리오 / Chatbot Use Cases
 
-### 1. 지역 기반 공고 찾기
-
+### 🗺 지역 기반 검색
 > "서울에 있는 공공임대주택 뭐 있어?"
 
-### 2. 맞춤형 공고 추천
-
+### 👤 맞춤형 추천
 > "30대 미혼 남성인데 경기도에서 신청 가능한 공고 알려줘."
-
-### 1. Regional Notice Search
-
-> "What public rental housing is available in Seoul?"
-
-### 2. Personalized Recommendation
-
-> "I’m a single man in my 30s living in Gyeonggi-do. What housing options can I apply for?"
 
 ---
 
-## 🛠️ 향후 개선 방향 / FUTURE IMPROVEMENTS
+## 🚀 향후 개선 계획 / Future Improvements
 
-- 자연어 질문 다양성 대응력 향상
-- 타 플랫폼(예: 네이버톡, 웹앱) 연동
+- 다양한 자연어 표현 대응
+- 네이버톡, 웹앱 등 타 플랫폼 연동
 - 이미지 기반 공고문 요약 기능 추가
 
-- Enhanced support for diverse natural language queries
-- Multi-platform support (e.g., NaverTalk, WebApp)
-- Visual summarization of document content (image to text)
+---
 
-## 더 자세한 내용은 첨부된 pdf 파일을 확인해 주세요! / FOR MORE INFORMATION PLEASE CHECK THE PDF FILE
+## 📄 더 알아보기 / More Information
+
+더 자세한 내용은 첨부된 PDF 문서를 참고해 주세요!  
+Check the attached PDF for more details.
