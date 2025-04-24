@@ -1,10 +1,10 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
 
-# 🏠 Find My Home: Public Rental Housing Information Assistant
+# 찾아줘 홈즈 🏠 / ind My Home: Public Rental Housing Information Assistant
+
+<img src="./images/title.png" style="width: 100%; height: auto;" />
 
 ...
-
-# 🏠 찾아줘 홈즈: 공공임대주택 정보 안내 도우미 / Find My Home: Public Rental Housing Information Assistant
 
 **찾아줘 홈즈**는 공공임대주택 정보를 쉽고 빠르게 찾을 수 있도록 도와주는 AI 기반 챗봇 서비스입니다.  
 사용자의 나이, 혼인 여부, 지역 등의 정보를 기반으로 맞춤형 공고를 추천하며,  
@@ -15,6 +15,27 @@ Based on the user's age, marital status, and region, it recommends customized ho
 It is conveniently accessible through KakaoTalk.
 
 ---
+
+## 👀 How does it work?
+
+<div align="center">
+  <img src="./images/demo1.gif" width="45%" style="margin-right: 10px;" />
+  <img src="./images/demo2.gif" width="45%" />
+</div>
+
+## ⚙️ Architecture
+
+<img src="./images/architecture.png" style="width: 100%; height: auto;" />
+
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
+  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=LangChain&logoColor=white" />
+  <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white" />
+  <img alt="ngrok" src="https://img.shields.io/badge/ngrok-1F1E37?style=for-the-badge&logo=ngrok&logoColor=white" />
+  <img alt="kakaotalk" src="https://img.shields.io/badge/kakaotalk-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=white" />
+  <img alt="Azure" src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logoColor=white" />
+  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white" />
+</p>
 
 ## 📌 프로젝트 개요 / PROJECT OVERVIEW
 
