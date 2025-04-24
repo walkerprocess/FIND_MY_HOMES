@@ -1,21 +1,36 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=BDBDC8&height=150&section=header" />
 
+<<<<<<< HEAD
 # 찾아줘 홈즈 🏠 / ind My Home: Public Rental Housing Information Assistant
 
 <img src="./images/title.png" style="width: 100%; height: auto;" />
 
 ...
+=======
+# 🏠 찾아줘 홈즈: 공공임대주택 정보 안내 도우미 / Find My Home: Public Rental Housing Information Assistant
+>>>>>>> 5313e4f1750e64b1116c425099e61f582763f8b4
 
 **찾아줘 홈즈**는 공공임대주택 정보를 쉽고 빠르게 찾을 수 있도록 도와주는 AI 기반 챗봇 서비스입니다.  
 사용자의 나이, 혼인 여부, 지역 등의 정보를 기반으로 맞춤형 공고를 추천하며,  
 카카오톡을 통해 손쉽게 이용할 수 있도록 구현되었습니다.
 
+*카카오톡에서 "찾아줘! 홈즈"라고 검색하시면 사용하실 수 있습니다!*
+
+*업데이트! 현재는 리소스 문제로 llm 모델은 실행이 안됩니다!🪦*
+
 **Find My Home** is an AI-powered chatbot service designed to help users easily search for public rental housing information in Korea.  
-Based on the user's age, marital status, and region, it recommends customized housing notices.  
+It recommends customized housing notices based on the user's age, marital status, and region.  
 It is conveniently accessible through KakaoTalk.
 
+*Search "찾아줘! 홈즈" in Kakaotalk to use this chatbot!*  
+*Update! Service is Currently down 2025/4/22 🪦*
 ---
+## 업로드된 폴더 설명 / UPLOADED FOLDERS DESCRIPTION
+-  find-homes-dev 폴더에 들어있는 코드들이 최종적으로 카카오톡과 연동할때 쓰인 파일들입니다
+-  adding_vocab(csv-md) 폴더에는 csv로 저장되어있는 단어집을 md파일로 변환 그리고 원본 데이터들과 합치는 코드들이 들어가있습니다
+-  Uploading,Testing 폴더에는 데이터 업로드 과정 그리고 초기 RAG 모델 테스트 코드들이 들어가있습니다.
 
+<<<<<<< HEAD
 ## 👀 How does it work?
 
 <div align="center">
@@ -37,6 +52,11 @@ It is conveniently accessible through KakaoTalk.
   <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=OpenAI&logoColor=white" />
 </p>
 
+=======
+-  find-homes-dev folder includes codes that are used to connect with KakaoTalk Chatbot
+-  adding_vocab(csv-md) folder includes codes that switch vocab data (csv data) into a markdown file and add it with the original data
+-  Uploading, Testing folder includes codes used to upload data into Azure AI Search and testing of the early RAG model.
+>>>>>>> 5313e4f1750e64b1116c425099e61f582763f8b4
 ## 📌 프로젝트 개요 / PROJECT OVERVIEW
 
 - **목표:** 공공임대주택 관련 정보를 사용자 맞춤형으로 제공하여 정보 접근성을 향상시키고 복잡한 주거 지원 정보를 쉽게 전달.
